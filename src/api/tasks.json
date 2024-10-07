@@ -1,0 +1,554 @@
+{
+    "automation_modules": [
+      {
+        "name": "Linkedin",
+        "actions": [
+          {
+              "name": "get_Linkedin_company",
+              "description": "Get LinkedIn Company Details"
+          },
+          {
+              "name": "get_Linkedin_company_people",
+              "description": "Get LinkedIn Company People"
+          },
+          {
+              "name": "get_Linkedin_company_jobs",
+              "description": "Get LinkedIn Company Jobs"
+          },
+          {
+              "name": "get_Linkedin_company_posts",
+              "description": "Get LinkedIn Company Posts"
+          },
+          {
+              "name": "get_linkedin_profile_person",
+              "description": "Get LinkedIn Profile Person Overview"
+          },
+          {
+              "name": "get_linkedin_profile_person_about",
+              "description": "Get LinkedIn Profile Person About"
+          },
+          {
+              "name": "get_linkedin_profile_person_experience",
+              "description": "Get LinkedIn Profile Person Experience"
+          },
+          {
+              "name": "get_linkedin_profile_person_education",
+              "description": "Get LinkedIn Profile Person Education"
+          },
+          {
+              "name": "get_linkedin_profile_person_skills",
+              "description": "Get LinkedIn Profile Person Skills"
+          },
+          {
+              "name": "get_linkedin_profile_person_recommendations",
+              "description": "Get LinkedIn Profile Person Recommendations / Recieved"
+          },
+          {
+            "name": "get_linkedin_profile_person_recommendations_given",
+            "description": "Get LinkedIn Profile Person Recommendations / Given"
+        },
+          
+          {
+              "name": "get_linkedin_profile_person_contact",
+              "description": "Get LinkedIn Profile Person Contact Info"
+          },
+          {
+              "name": "get_linkedin_profile_person_interests",
+              "description": "Get LinkedIn Profile Person Interests"
+          },
+          {
+              "name": "get_linkedin_profile_person_activity",
+              "description": "Get LinkedIn Profile Person Activity"
+          },
+          {
+              "name": "get_linkedin_profile_person_also_viewed",
+              "description": "Get LinkedIn Profile Person Also Viewed"
+          },
+          {
+              "name": "get_linkedin_profile_person_courses",
+              "description": "Get LinkedIn Profile Person Courses"
+          },
+          {
+              "name": "get_linkedin_profile_person_honors_and_awards",
+              "description": "Get LinkedIn Profile Person Honors and Awards"
+          },
+          {
+              "name": "get_linkedin_profile_person_publications",
+              "description": "Get LinkedIn Profile Person Publications"
+          },
+          {
+              "name": "get_linkedin_profile_person_images",
+              "description": "Get LinkedIn Profile Person Images"
+          },
+          {
+              "name": "get_linkedin_profile_person_languages",
+              "description": "Get LinkedIn Profile Person Languages"
+          },
+          {
+              "name": "get_linkedin_profile_person_patents",
+              "description": "Get LinkedIn Profile Person Patents"
+          },
+          {
+              "name": "get_linkedin_profile_person_projects",
+              "description": "Get LinkedIn Profile Person Projects"
+          },
+          {
+              "name": "get_linkedin_profile_person_volunteering",
+              "description": "Get LinkedIn Profile Person Volunteering"
+          },
+          {
+              "name": "get_linkedin_profile_person_organizations",
+              "description": "Get LinkedIn Profile Person Organizations"
+          },
+          {
+              "name": "get_linkedin_profile_person_licenses_and_certifications",
+              "description": "Get LinkedIn Profile Person Licenses and Certifications"
+          },
+          {
+              "name": "get_linkedin_profile_person_test_scores",
+              "description": "Get LinkedIn Profile Person Test Scores"
+          },
+          {
+              "name": "get_linkedin_search_people",
+              "description": "Search LinkedIn People"
+          },
+          {
+              "name": "get_linkedin_search_companies",
+              "description": "Search LinkedIn Companies"
+          },
+          {
+              "name": "get_linkedin_search_jobs",
+              "description": "Search LinkedIn Jobs"
+          },
+          {
+              "name": "get_linkedin_search_posts",
+              "description": "Search LinkedIn Posts"
+          },
+          {
+              "name": "get_linkedin_search_locations",
+              "description": "Search LinkedIn Locations"
+          }
+      ]
+      },
+      {
+        "name": "Facebook",
+        "actions": [
+          {
+            "name": "get_facebook_user_timeline",
+            "description": "Get the timeline of a specific Facebook user"
+          },
+          {
+            "name": "get_facebook_user_about",
+            "description": "Get the about information of a specific Facebook user"
+          },
+          {
+            "name": "get_facebook_user_about_tabs",
+            "description": "Get the about tabs of a specific Facebook user"
+          },
+          {
+            "name": "get_facebook_user_feed",
+            "description": "Get the feed of a specific Facebook user"
+          },
+          {
+            "name": "get_facebook_user_search_posts",
+            "description": "Search for posts by a specific Facebook user"
+          },
+          {
+            "name": "get_facebook_user_friends",
+            "description": "Get the friends of a specific Facebook user"
+          },
+          {
+            "name": "get_facebook_user_followers",
+            "description": "Get the followers of a specific Facebook user"
+          },
+          {
+            "name": "get_facebook_user_following",
+            "description": "Get the users that a specific Facebook user is following"
+          },
+          {
+            "name": "get_facebook_user_checkins",
+            "description": "Get the check-ins of a specific Facebook user"
+          },
+          {
+            "name": "get_facebook_user_likes",
+            "description": "Get the likes of a specific Facebook user"
+          },
+          {
+            "name": "get_facebook_user_albums",
+            "description": "Get the albums of a specific Facebook user"
+          },
+          {
+            "name": "get_facebook_user_videos",
+            "description": "Get the videos of a specific Facebook user"
+          },
+          {
+            "name": "get_facebook_user_media",
+            "description": "Get the media uploaded by a specific Facebook user"
+          },
+          {
+            "name": "get_facebook_user_tagged_media",
+            "description": "Get the media where a specific Facebook user is tagged"
+          },
+          {
+            "name": "get_facebook_search_all",
+            "description": "Search all content on Facebook using a specific query"
+          },
+          {
+            "name": "get_facebook_search_posts",
+            "description": "Search for posts on Facebook using a specific query"
+          },
+          {
+            "name": "get_facebook_page_transparency",
+            "description": "Get transparency information of a specific Facebook page"
+          },
+          {
+            "name": "get_facebook_page_community_info",
+            "description": "Get community information of a specific Facebook page"
+          },
+          {
+            "name": "get_facebook_page_community_posts",
+            "description": "Get community posts of a specific Facebook page"
+          },
+          {
+            "name": "get_facebook_page_feed",
+            "description": "Get feed of a specific Facebook page"
+          },
+          {
+            "name": "get_facebook_page_albums",
+            "description": "Get albums of a specific Facebook page"
+          },
+          {
+            "name": "get_facebook_marketplace_search",
+            "description": "Get marketplace search results on Facebook for a specific query"
+          },
+          {
+            "name": "get_facebook_marketplace_search_category",
+            "description": "Get marketplace search results in a specific category on Facebook"
+          },
+          {
+            "name": "get_facebook_marketplace_product",
+            "description": "Get product details from Facebook marketplace by product identifier"
+          },
+          {
+            "name": "get_facebook_marketplace_profile",
+            "description": "Get profile details from Facebook marketplace by profile identifier"
+          },
+          {
+            "name": "get_facebookUsage",
+            "description": "Get usage information about the Facebook API"
+          },
+          {
+            "name": "get_facebook_group_details",
+            "description": "Get details about a specific Facebook group"
+          },
+          {
+            "name": "get_facebook_group_members",
+            "description": "Get members of a specific Facebook group"
+          },
+          {
+            "name": "get_facebook_group_history",
+            "description": "Get history of a specific Facebook group"
+          },
+          {
+            "name": "get_facebook_group_info",
+            "description": "Get information about a specific Facebook group"
+          },
+          {
+            "name": "get_facebook_group_admins",
+            "description": "Get admins of a specific Facebook group"
+          },
+          {
+            "name": "get_facebook_group_feed",
+            "description": "Get feed of a specific Facebook group"
+          },
+          {
+            "name": "get_facebook_group_albums",
+            "description": "Get albums of a specific Facebook group"
+          },
+          {
+            "name": "get_facebook_group_photos",
+            "description": "Get photos of a specific Facebook group"
+          },       
+          {
+            "name": "get_facebook_search_photos",
+            "description": "Search for photos on Facebook using a specific identifier"
+          },
+          {
+            "name": "get_facebook_search_videos",
+            "description": "Search for videos on Facebook using a specific identifier"
+          },
+          {
+            "name": "get_facebook_search_groups",
+            "description": "Search for groups on Facebook using a specific identifier"
+          },
+          {
+            "name": "get_facebook_search_pages",
+            "description": "Search for pages on Facebook using a specific identifier"
+          },
+          {
+            "name": "get_facebook_search_users",
+            "description": "Search for users on Facebook using a specific identifier"
+          },
+          {
+            "name": "get_facebook_search_hashtag",
+            "description": "Search for hashtags on Facebook using a specific identifier"
+          },
+          {
+            "name": "get_facebook_search_filters",
+            "description": "Search for filters on Facebook using a specific identifier"
+          },
+          {
+            "name": "get_facebook_posts_node",
+            "description": "Get posts from a specific node on Facebook"
+          },
+          {
+            "name": "get_facebook_posts_reactions_counts",
+            "description": "Get reaction counts for a specific post on Facebook"
+          },
+          {
+            "name": "get_facebook_posts_false_information",
+            "description": "Check if a specific post on Facebook contains false information"
+          },
+          {
+            "name": "get_facebook_posts_comments",
+            "description": "Get comments for a specific post on Facebook"
+          },
+          {
+            "name": "get_facebook_posts_reactors",
+            "description": "Get reactors for a specific post on Facebook"
+          },
+          {
+            "name": "get_facebook_posts_shares",
+            "description": "Get share information for a specific post on Facebook"
+          },
+          {
+            "name": "get_facebook_posts_media",
+            "description": "Get media for a specific post on Facebook"
+          },
+          {
+            "name": "get_facebook_album",
+            "description": "Get media for a specific album on Facebook"
+          },
+          {
+            "name": "get_facebook_album_metadata",
+            "description": "Get metadata for a specific album on Facebook"
+          },
+          {
+            "name": "get_facebook_page_details",
+            "description": "Get details for a specific page on Facebook"
+          },
+          {
+            "name": "get_facebook_page_about",
+            "description": "Get about information for a specific page on Facebook"
+          },
+          {
+            "name": "get_facebook_page_extra_data",
+            "description": "Get extra data for a specific page on Facebook"
+          },
+          {
+            "name": "get_facebook_page_content_data",
+            "description": "Get content data for a specific page on Facebook"
+          }
+        ]
+      },
+      {
+        "name": "Instagram",
+        "actions": [
+          {
+            "name": "get_instagram_users_hashtag",
+            "description": "Get Instagram users associated with a specific hashtag"
+          },
+          {
+            "name": "get_instagram_username",
+            "description": "Get Instagram user details by username"
+          },
+          {
+            "name": "get_instagram_followers",
+            "description": "Get followers of a specific Instagram user"
+          },
+          {
+            "name": "get_instagram_following",
+            "description": "Get users that a specific Instagram user is following"
+          },
+          {
+            "name": "get_instagram_feed",
+            "description": "Get feed of a specific Instagram user"
+          },
+          {
+            "name": "get_instagram_reels",
+            "description": "Get reels of a specific Instagram user"
+          },
+          {
+            "name": "get_instagram_tag_feed",
+            "description": "Get feed of a specific tag on Instagram"
+          },
+          {
+            "name": "get_instagram_story",
+            "description": "Get story of a specific Instagram user"
+          },
+          {
+            "name": "get_instagram_highlights",
+            "description": "Get highlights of a specific Instagram user"
+          },
+          {
+            "name": "get_instagram_highlights_post",
+            "description": "Get posts within the highlights of a specific Instagram user"
+          },
+          {
+            "name": "get_instagram_user_details",
+            "description": "Get detailed information about a specific Instagram user"
+          },
+          {
+            "name": "get_instagram_hashtag_details",
+            "description": "Get detailed information about a specific hashtag on Instagram"
+          },
+          {
+            "name": "get_instagram_location_details",
+            "description": "Get detailed information about a specific location on Instagram"
+          },
+          {
+            "name": "get_instagram_top_search",
+            "description": "Get top search results on Instagram for a specific query"
+          },
+          {
+            "name": "get_instagram_places_search",
+            "description": "Get search results for places on Instagram for a specific query"
+          },
+          {
+            "name": "get_instagram_users_search",
+            "description": "Get search results for users on Instagram for a specific query"
+          },
+          {
+            "name": "get_instagram_media",
+            "description": "Get media on Instagram by a specific identifier"
+          },
+          {
+            "name": "get_instagram_comments",
+            "description": "Get comments on a specific Instagram post"
+          },
+          {
+            "name": "get_instagram_likes",
+            "description": "Get likes on a specific Instagram post"
+          },
+          {
+            "name": "get_instagram_child_comments",
+            "description": "Get child comments of a specific comment on Instagram"
+          },
+          {
+            "name": "get_instagram_location_story",
+            "description": "Get story of a specific location on Instagram"
+          },
+          {
+            "name": "get_instagram_location_map_story",
+            "description": "Get map story of a specific location on Instagram"
+          },
+          {
+            "name": "get_instagram_location_story_post",
+            "description": "Get posts within the story of a specific location on Instagram"
+          },
+          {
+            "name": "get_instagram_hashtag",
+            "description": "Get information about a specific hashtag on Instagram"
+          },
+          {
+            "name": "get_instagram_hashtag_story",
+            "description": "Get story of a specific hashtag on Instagram"
+          },
+          {
+            "name": "get_instagram__usage",
+            "description": "Get usage information about the Instagram API"
+          }
+        ]
+      },
+      {
+        "name": "Twitter",
+        "actions": [
+          {
+            "name": "get_twitter_profile_id",
+            "description": "Get Twitter profile ID"
+          },
+          {
+            "name": "get_twitter_profile_details",
+            "description": "Get twitter profile details"
+          },
+          {
+            "name": "get_twitter_profile_feed",
+            "description": "Get twitter profile feed"
+          },
+          {
+            "name": "get_twitter_profile_replies",
+            "description": "Get twitter profile replies"
+          },
+          {
+            "name": "get_twitter_profile_followers",
+            "description": "Get twitter profile followers"
+          },
+          {
+            "name": "get_twitter_profile_following",
+            "description": "Get twitter following list"
+          },
+          {
+            "name": "get_twitter_profile_likes",
+            "description": "Get twitter profile likes"
+          },
+          {
+            "name": "get_twitter_profile_tweets",
+            "description": "Get twitter profile tweets"
+          },
+          {
+            "name": "get_twitter_profile_highlights",
+            "description": "Get twitter profile highlights"
+          },
+          {
+            "name": "get_twitter_profile_media",
+            "description": "Get twitter profile media"
+          },
+          {
+            "name": "get_twitter_profile_lists_memberships",
+            "description": "Get twitter list memberships"
+          },
+          {
+            "name": "get_twitter_search_top",
+            "description": "Get twitter top search results"
+          },
+          {
+            "name": "get_twitter_search_latest",
+            "description": "Get twitter latest search results"
+          },
+          {
+            "name": "get_twitter_search_photos",
+            "description": "Get twitter photo search results"
+          },
+          {
+            "name": "get_twitter_search_videos",
+            "description": "Get twitter video search results"
+          },
+          {
+            "name": "get_twitter_search_people",
+            "description": "Get twitter people search results"
+          },
+          {
+            "name": "get_twitter_details",
+            "description": "Get twitter tweet details"
+          },
+          {
+            "name": "get_twitter_replies",
+            "description": "Get twitter tweet replies"
+          },
+          {
+            "name": "get_twitter_retweets",
+            "description": "Get twitter tweet retweets"
+          },
+          {
+            "name": "get_twitter_likes",
+            "description": "Get twitter tweet likes"
+          },
+          {
+            "name": "get_twitter_quotes",
+            "description": "Get twitter tweet quotes"
+          }
+        ]
+      }
+     
+    ]
+  }
